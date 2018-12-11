@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-
 @interface AppDelegate ()
 
 @end
@@ -16,10 +15,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+//    //先配置公共拦截器
+//    [[WMZBaseAop shareInstance] addAllAop];
+//    //配置自己的拦截器类
+//    [[WMZRouter shareInstance] handleWithURL:RouterURL().target(@"WMZAop").action(@"addAllAop") WithParam:nil];
+    
+    
+    id  url = RouterURL().target(@"getLoginVC");
+    id  parm =  RouterParam().enterVCStyle(RouterRootNa);
+    [[WMZRouter shareInstance] handleWithURL:url WithParam:parm];
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

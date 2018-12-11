@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BaseView : UIView
+@interface BaseView : UIView<WMZRouterProtocol>
 
 @end
 

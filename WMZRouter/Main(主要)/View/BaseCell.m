@@ -10,6 +10,10 @@
 
 @implementation BaseCell
 
++ (NSString *)routerPath{
+    return [NSString stringWithFormat:@"get%@",NSStringFromClass([self class])];
+}
+
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code

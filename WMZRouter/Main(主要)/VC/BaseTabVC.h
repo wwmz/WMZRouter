@@ -10,7 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BaseTabVC : UITabBarController
+@interface BaseTabVC : UITabBarController<WMZRouterProtocol>
+
+@property(nonatomic,copy)NSString *test;
 
 @end
 

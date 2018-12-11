@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BaseCell : UITableViewCell
+@interface BaseCell : UITableViewCell<WMZRouterProtocol>
 
 @end
 

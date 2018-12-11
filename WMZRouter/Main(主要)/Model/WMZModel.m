@@ -1,3 +1,6 @@
+
+
+
 //
 //  WMZModel.m
 //  WMZRouter
@@ -9,5 +12,10 @@
 #import "WMZModel.h"
 
 @implementation WMZModel
-
+- (NSString *)description{
+    return [NSString stringWithFormat:@"%@ %ld %@",self.name,self.age,self.other];
+}
++ (NSString *)routerPath{
+    return [NSString stringWithFormat:@"get%@",NSStringFromClass([self class])];
+}
 @end

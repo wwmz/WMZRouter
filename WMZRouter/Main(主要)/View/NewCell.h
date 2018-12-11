@@ -6,11 +6,12 @@
 //  Copyright © 2018年 wmz. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
+#import "BaseCell.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NewCell : UITableViewCell
+@interface NewCell : BaseCell
+
+@property(nonatomic,strong)id model;
 
 @end
 

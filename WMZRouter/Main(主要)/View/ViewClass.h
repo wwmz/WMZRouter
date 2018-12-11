@@ -6,11 +6,15 @@
 //  Copyright © 2018年 wmz. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "BaseView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ViewClass : NSObject
+@interface ViewClass : BaseView
+
+- (UIView*)getInformationViewWithParma:(NSDictionary*)parma;
+
+- (UIView*)getHeadViewWithParma:(NSDictionary*)parma;
 
 @end
 

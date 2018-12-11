@@ -6,11 +6,21 @@
 //  Copyright © 2018年 wmz. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "BaseObject.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NewsModel : NSObject
+@interface NewsModel : BaseObject
+
+@property (nonatomic, copy) NSString *title;
+
+@property (nonatomic, copy) NSString *text;
+
+@property (nonatomic, copy) NSString *icon;
+
+@property (nonatomic, copy) NSString *time;
+
+@property (nonatomic, copy) NSString *ID;
 
 @end
 

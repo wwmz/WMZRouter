@@ -6,11 +6,17 @@
 //  Copyright © 2018年 wmz. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "BaseObject.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WMZSingleVC : NSObject
+@interface WMZSingleVC : BaseObject
+
++ (instancetype)shareInstance;
+
+- (NSString*)shareAction2:(NSDictionary*)paran;
+
+@property(nonatomic,strong)NSMutableArray *arr;
 
 @end
 

@@ -1,3 +1,8 @@
+
+
+
+
+
 //
 //  NewsModel.m
 //  WMZRouter
@@ -9,5 +14,7 @@
 #import "NewsModel.h"
 
 @implementation NewsModel
-
++ (NSString *)routerPath{
+    return [NSString stringWithFormat:@"get%@",NSStringFromClass([self class])];
+}
 @end

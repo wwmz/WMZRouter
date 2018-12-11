@@ -1,3 +1,4 @@
+
 //
 //  H5.m
 //  WMZRouter
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [WMZUI newLabelText:@"h5页面" TextColor:[UIColor redColor] SuperView:self.view Constraint:^(MASConstraintMaker *make) {
+        make.center.equalTo(self.view);
+    }];
 }
 
 /*

@@ -7,14 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18413BE521ABDDE600F6E996 /* WMZRouter+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 18413BE421ABDDE600F6E996 /* WMZRouter+Expand.m */; };
+		18413BE821ABDE2400F6E996 /* WMZBaseAop.m in Sources */ = {isa = PBXBuildFile; fileRef = 18413BE721ABDE2400F6E996 /* WMZBaseAop.m */; };
+		18413BF421AD24CD00F6E996 /* WMZRouterParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 18413BF321AD24CD00F6E996 /* WMZRouterParam.m */; };
+		1873C87421A3E759001D663C /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1873C87321A3E759001D663C /* BaseObject.m */; };
+		1873C87A21A3E8C3001D663C /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1873C87921A3E8C3001D663C /* BaseCell.m */; };
+		1873C87D21A3EE02001D663C /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1873C87C21A3EE02001D663C /* BaseView.m */; };
+		18B6F79C219C13A700B4988A /* WMZSingleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6F79B219C13A700B4988A /* WMZSingleVC.m */; };
+		18B6F7A9219E927600B4988A /* WMZRouteBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6F7A8219E927600B4988A /* WMZRouteBase.m */; };
+		18B6F7AC219E969C00B4988A /* H5.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6F7AB219E969C00B4988A /* H5.m */; };
+		18B6F7AF219E97FF00B4988A /* FailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6F7AE219E97FF00B4988A /* FailVC.m */; };
+		18B6F7B9219EDCD700B4988A /* NetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6F7B8219EDCD700B4988A /* NetWorkTool.m */; };
 		18EB4E512193CC1600F3B7F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4E502193CC1600F3B7F2 /* AppDelegate.m */; };
-		18EB4E542193CC1600F3B7F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4E532193CC1600F3B7F2 /* ViewController.m */; };
 		18EB4E572193CC1600F3B7F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EB4E552193CC1600F3B7F2 /* Main.storyboard */; };
 		18EB4E592193CC2000F3B7F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EB4E582193CC2000F3B7F2 /* Assets.xcassets */; };
 		18EB4E5C2193CC2000F3B7F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EB4E5A2193CC2000F3B7F2 /* LaunchScreen.storyboard */; };
 		18EB4E5F2193CC2000F3B7F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4E5E2193CC2000F3B7F2 /* main.m */; };
 		18EB4E692193CC2100F3B7F2 /* WMZRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4E682193CC2100F3B7F2 /* WMZRouterTests.m */; };
 		18EB4E742193CC2100F3B7F2 /* WMZRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4E732193CC2100F3B7F2 /* WMZRouterUITests.m */; };
+		18EB4EB92193D49600F3B7F2 /* WMZRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4EB82193D49600F3B7F2 /* WMZRouter.m */; };
+		18EB4EE82193DAFB00F3B7F2 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4EC32193DAFB00F3B7F2 /* MASCompositeConstraint.m */; };
+		18EB4EE92193DAFB00F3B7F2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4EC62193DAFB00F3B7F2 /* MASConstraint.m */; };
+		18EB4EEA2193DAFB00F3B7F2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4EC82193DAFB00F3B7F2 /* MASConstraintMaker.m */; };
+		18EB4EEB2193DAFB00F3B7F2 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4ECA2193DAFB00F3B7F2 /* MASLayoutConstraint.m */; };
+		18EB4EEC2193DAFB00F3B7F2 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4ECE2193DAFB00F3B7F2 /* MASViewAttribute.m */; };
+		18EB4EED2193DAFB00F3B7F2 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4ED02193DAFB00F3B7F2 /* MASViewConstraint.m */; };
+		18EB4EEE2193DAFB00F3B7F2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4ED22193DAFB00F3B7F2 /* NSArray+MASAdditions.m */; };
+		18EB4EEF2193DAFB00F3B7F2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4ED52193DAFB00F3B7F2 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		18EB4EF02193DAFB00F3B7F2 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4ED72193DAFB00F3B7F2 /* View+MASAdditions.m */; };
+		18EB4EF12193DAFB00F3B7F2 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4EDA2193DAFB00F3B7F2 /* ViewController+MASAdditions.m */; };
+		18EB4EF22193DAFB00F3B7F2 /* WMZAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4EDD2193DAFB00F3B7F2 /* WMZAlert.m */; };
+		18EB4EF42193DAFB00F3B7F2 /* WMZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4EE32193DAFB00F3B7F2 /* WMZTableView.m */; };
+		18EB4EF52193DAFB00F3B7F2 /* WMZUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4EE62193DAFB00F3B7F2 /* WMZUI.m */; };
+		18EB4F042193E30300F3B7F2 /* WMZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4F032193E30300F3B7F2 /* WMZRequest.m */; };
+		18F4735121BA72F90030F719 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4734F21BA72F80030F719 /* Aspects.m */; };
+		18FE48FB219959B8006FB9A9 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE48EB219959B8006FB9A9 /* BaseVC.m */; };
+		18FE48FC219959B8006FB9A9 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE48ED219959B8006FB9A9 /* HomeVC.m */; };
+		18FE48FD219959B8006FB9A9 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE48EF219959B8006FB9A9 /* LoginVC.m */; };
+		18FE48FE219959B8006FB9A9 /* PersonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE48F1219959B8006FB9A9 /* PersonVC.m */; };
+		18FE48FF219959B8006FB9A9 /* ReginerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE48F3219959B8006FB9A9 /* ReginerVC.m */; };
+		18FE4900219959B8006FB9A9 /* WebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE48F5219959B8006FB9A9 /* WebVC.m */; };
+		18FE4901219959B8006FB9A9 /* WMZCheckNumTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE48F9219959B8006FB9A9 /* WMZCheckNumTool.m */; };
+		18FE490721995B53006FB9A9 /* ViewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE490621995B53006FB9A9 /* ViewClass.m */; };
+		18FE490E219A628A006FB9A9 /* BaseTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE490D219A628A006FB9A9 /* BaseTabVC.m */; };
+		18FE4911219A62D6006FB9A9 /* NewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE4910219A62D6006FB9A9 /* NewsVC.m */; };
+		18FE4914219A62E5006FB9A9 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE4913219A62E5006FB9A9 /* MineVC.m */; };
+		18FE491A219A7953006FB9A9 /* WMZModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE4919219A7953006FB9A9 /* WMZModel.m */; };
+		18FE491D219A7E1A006FB9A9 /* NewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE491C219A7E1A006FB9A9 /* NewCell.m */; };
+		18FE4920219A7FAE006FB9A9 /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE491F219A7FAE006FB9A9 /* NewsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +75,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18413BE321ABDDE600F6E996 /* WMZRouter+Expand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WMZRouter+Expand.h"; sourceTree = "<group>"; };
+		18413BE421ABDDE600F6E996 /* WMZRouter+Expand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WMZRouter+Expand.m"; sourceTree = "<group>"; };
+		18413BE621ABDE2400F6E996 /* WMZBaseAop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMZBaseAop.h; sourceTree = "<group>"; };
+		18413BE721ABDE2400F6E996 /* WMZBaseAop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMZBaseAop.m; sourceTree = "<group>"; };
+		18413BF221AD24CD00F6E996 /* WMZRouterParam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMZRouterParam.h; sourceTree = "<group>"; };
+		18413BF321AD24CD00F6E996 /* WMZRouterParam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMZRouterParam.m; sourceTree = "<group>"; };
+		1873C87121A3E118001D663C /* WMZRouterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMZRouterProtocol.h; sourceTree = "<group>"; };
+		1873C87221A3E759001D663C /* BaseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseObject.h; sourceTree = "<group>"; };
+		1873C87321A3E759001D663C /* BaseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseObject.m; sourceTree = "<group>"; };
+		1873C87821A3E8C3001D663C /* BaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCell.h; sourceTree = "<group>"; };
+		1873C87921A3E8C3001D663C /* BaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCell.m; sourceTree = "<group>"; };
+		1873C87B21A3EE02001D663C /* BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		1873C87C21A3EE02001D663C /* BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		18B6F79A219C13A700B4988A /* WMZSingleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMZSingleVC.h; sourceTree = "<group>"; };
+		18B6F79B219C13A700B4988A /* WMZSingleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMZSingleVC.m; sourceTree = "<group>"; };
+		18B6F7A7219E927600B4988A /* WMZRouteBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMZRouteBase.h; sourceTree = "<group>"; };
+		18B6F7A8219E927600B4988A /* WMZRouteBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMZRouteBase.m; sourceTree = "<group>"; };
+		18B6F7AA219E969C00B4988A /* H5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H5.h; sourceTree = "<group>"; };
+		18B6F7AB219E969C00B4988A /* H5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H5.m; sourceTree = "<group>"; };
+		18B6F7AD219E97FF00B4988A /* FailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FailVC.h; sourceTree = "<group>"; };
+		18B6F7AE219E97FF00B4988A /* FailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailVC.m; sourceTree = "<group>"; };
+		18B6F7B7219EDCD700B4988A /* NetWorkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkTool.h; sourceTree = "<group>"; };
+		18B6F7B8219EDCD700B4988A /* NetWorkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkTool.m; sourceTree = "<group>"; };
 		18EB4E4C2193CC1600F3B7F2 /* WMZRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMZRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EB4E4F2193CC1600F3B7F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18EB4E502193CC1600F3B7F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18EB4E522193CC1600F3B7F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18EB4E532193CC1600F3B7F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18EB4E562193CC1600F3B7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18EB4E582193CC2000F3B7F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18EB4E5B2193CC2000F3B7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +112,73 @@
 		18EB4E6F2193CC2100F3B7F2 /* WMZRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMZRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EB4E732193CC2100F3B7F2 /* WMZRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMZRouterUITests.m; sourceTree = "<group>"; };
 		18EB4E752193CC2100F3B7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EB4EB62193D1FE00F3B7F2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18EB4EB72193D49600F3B7F2 /* WMZRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMZRouter.h; sourceTree = "<group>"; };
+		18EB4EB82193D49600F3B7F2 /* WMZRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMZRouter.m; sourceTree = "<group>"; };
+		18EB4EC22193DAFB00F3B7F2 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		18EB4EC32193DAFB00F3B7F2 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		18EB4EC42193DAFB00F3B7F2 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		18EB4EC52193DAFB00F3B7F2 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		18EB4EC62193DAFB00F3B7F2 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		18EB4EC72193DAFB00F3B7F2 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		18EB4EC82193DAFB00F3B7F2 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		18EB4EC92193DAFB00F3B7F2 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		18EB4ECA2193DAFB00F3B7F2 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		18EB4ECB2193DAFB00F3B7F2 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		18EB4ECC2193DAFB00F3B7F2 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		18EB4ECD2193DAFB00F3B7F2 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		18EB4ECE2193DAFB00F3B7F2 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		18EB4ECF2193DAFB00F3B7F2 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		18EB4ED02193DAFB00F3B7F2 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		18EB4ED12193DAFB00F3B7F2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		18EB4ED22193DAFB00F3B7F2 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		18EB4ED32193DAFB00F3B7F2 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		18EB4ED42193DAFB00F3B7F2 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		18EB4ED52193DAFB00F3B7F2 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		18EB4ED62193DAFB00F3B7F2 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		18EB4ED72193DAFB00F3B7F2 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		18EB4ED82193DAFB00F3B7F2 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		18EB4ED92193DAFB00F3B7F2 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		18EB4EDA2193DAFB00F3B7F2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		18EB4EDC2193DAFB00F3B7F2 /* WMZAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMZAlert.h; sourceTree = "<group>"; };
+		18EB4EDD2193DAFB00F3B7F2 /* WMZAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMZAlert.m; sourceTree = "<group>"; };
+		18EB4EE22193DAFB00F3B7F2 /* WMZTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMZTableView.h; sourceTree = "<group>"; };
+		18EB4EE32193DAFB00F3B7F2 /* WMZTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMZTableView.m; sourceTree = "<group>"; };
+		18EB4EE52193DAFB00F3B7F2 /* WMZUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMZUI.h; sourceTree = "<group>"; };
+		18EB4EE62193DAFB00F3B7F2 /* WMZUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMZUI.m; sourceTree = "<group>"; };
+		18EB4F022193E30300F3B7F2 /* WMZRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMZRequest.h; sourceTree = "<group>"; };
+		18EB4F032193E30300F3B7F2 /* WMZRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMZRequest.m; sourceTree = "<group>"; };
+		18F4734F21BA72F80030F719 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		18F4735021BA72F80030F719 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		18FE48EA219959B8006FB9A9 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		18FE48EB219959B8006FB9A9 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		18FE48EC219959B8006FB9A9 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		18FE48ED219959B8006FB9A9 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		18FE48EE219959B8006FB9A9 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		18FE48EF219959B8006FB9A9 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		18FE48F0219959B8006FB9A9 /* PersonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonVC.h; sourceTree = "<group>"; };
+		18FE48F1219959B8006FB9A9 /* PersonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonVC.m; sourceTree = "<group>"; };
+		18FE48F2219959B8006FB9A9 /* ReginerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReginerVC.h; sourceTree = "<group>"; };
+		18FE48F3219959B8006FB9A9 /* ReginerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReginerVC.m; sourceTree = "<group>"; };
+		18FE48F4219959B8006FB9A9 /* WebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebVC.h; sourceTree = "<group>"; };
+		18FE48F5219959B8006FB9A9 /* WebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebVC.m; sourceTree = "<group>"; };
+		18FE48F8219959B8006FB9A9 /* WMZCheckNumTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMZCheckNumTool.h; sourceTree = "<group>"; };
+		18FE48F9219959B8006FB9A9 /* WMZCheckNumTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMZCheckNumTool.m; sourceTree = "<group>"; };
+		18FE490521995B53006FB9A9 /* ViewClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewClass.h; sourceTree = "<group>"; };
+		18FE490621995B53006FB9A9 /* ViewClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewClass.m; sourceTree = "<group>"; };
+		18FE490B219981F3006FB9A9 /* WMZCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMZCommon.h; sourceTree = "<group>"; };
+		18FE490C219A628A006FB9A9 /* BaseTabVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabVC.h; sourceTree = "<group>"; };
+		18FE490D219A628A006FB9A9 /* BaseTabVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabVC.m; sourceTree = "<group>"; };
+		18FE490F219A62D6006FB9A9 /* NewsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsVC.h; sourceTree = "<group>"; };
+		18FE4910219A62D6006FB9A9 /* NewsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsVC.m; sourceTree = "<group>"; };
+		18FE4912219A62E5006FB9A9 /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		18FE4913219A62E5006FB9A9 /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		18FE4918219A7953006FB9A9 /* WMZModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMZModel.h; sourceTree = "<group>"; };
+		18FE4919219A7953006FB9A9 /* WMZModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMZModel.m; sourceTree = "<group>"; };
+		18FE491B219A7E1A006FB9A9 /* NewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewCell.h; sourceTree = "<group>"; };
+		18FE491C219A7E1A006FB9A9 /* NewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewCell.m; sourceTree = "<group>"; };
+		18FE491E219A7FAE006FB9A9 /* NewsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
+		18FE491F219A7FAE006FB9A9 /* NewsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +206,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B6F7B6219EDCCA00B4988A /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				18B6F7B7219EDCD700B4988A /* NetWorkTool.h */,
+				18B6F7B8219EDCD700B4988A /* NetWorkTool.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
 		18EB4E432193CC1600F3B7F2 = {
 			isa = PBXGroup;
 			children = (
@@ -101,15 +238,17 @@
 		18EB4E4E2193CC1600F3B7F2 /* WMZRouter */ = {
 			isa = PBXGroup;
 			children = (
+				18EB4EC02193DAFB00F3B7F2 /* Expand(拓展) */,
+				18EB4EE72193DAFB00F3B7F2 /* Main(主要) */,
+				18EB4E842193D1C900F3B7F2 /* WMZRouter */,
 				18EB4E4F2193CC1600F3B7F2 /* AppDelegate.h */,
 				18EB4E502193CC1600F3B7F2 /* AppDelegate.m */,
-				18EB4E522193CC1600F3B7F2 /* ViewController.h */,
-				18EB4E532193CC1600F3B7F2 /* ViewController.m */,
 				18EB4E552193CC1600F3B7F2 /* Main.storyboard */,
 				18EB4E582193CC2000F3B7F2 /* Assets.xcassets */,
 				18EB4E5A2193CC2000F3B7F2 /* LaunchScreen.storyboard */,
 				18EB4E5D2193CC2000F3B7F2 /* Info.plist */,
 				18EB4E5E2193CC2000F3B7F2 /* main.m */,
+				18EB4EB62193D1FE00F3B7F2 /* PrefixHeader.pch */,
 			);
 			path = WMZRouter;
 			sourceTree = "<group>";
@@ -130,6 +269,179 @@
 				18EB4E752193CC2100F3B7F2 /* Info.plist */,
 			);
 			path = WMZRouterUITests;
+			sourceTree = "<group>";
+		};
+		18EB4E842193D1C900F3B7F2 /* WMZRouter */ = {
+			isa = PBXGroup;
+			children = (
+				18EB4EB72193D49600F3B7F2 /* WMZRouter.h */,
+				18EB4EB82193D49600F3B7F2 /* WMZRouter.m */,
+				18B6F7A7219E927600B4988A /* WMZRouteBase.h */,
+				18B6F7A8219E927600B4988A /* WMZRouteBase.m */,
+				18EB4F022193E30300F3B7F2 /* WMZRequest.h */,
+				18EB4F032193E30300F3B7F2 /* WMZRequest.m */,
+				18413BF221AD24CD00F6E996 /* WMZRouterParam.h */,
+				18413BF321AD24CD00F6E996 /* WMZRouterParam.m */,
+				1873C87121A3E118001D663C /* WMZRouterProtocol.h */,
+				18413BE321ABDDE600F6E996 /* WMZRouter+Expand.h */,
+				18413BE421ABDDE600F6E996 /* WMZRouter+Expand.m */,
+				18413BE621ABDE2400F6E996 /* WMZBaseAop.h */,
+				18413BE721ABDE2400F6E996 /* WMZBaseAop.m */,
+				18F4735021BA72F80030F719 /* Aspects.h */,
+				18F4734F21BA72F80030F719 /* Aspects.m */,
+			);
+			path = WMZRouter;
+			sourceTree = "<group>";
+		};
+		18EB4EC02193DAFB00F3B7F2 /* Expand(拓展) */ = {
+			isa = PBXGroup;
+			children = (
+				18EB4EC12193DAFB00F3B7F2 /* Masonry */,
+				18EB4EDB2193DAFB00F3B7F2 /* WMZAlert */,
+				18EB4EE12193DAFB00F3B7F2 /* WMZTableView */,
+				18EB4EE42193DAFB00F3B7F2 /* WMZUI */,
+			);
+			path = "Expand(拓展)";
+			sourceTree = "<group>";
+		};
+		18EB4EC12193DAFB00F3B7F2 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				18EB4EC22193DAFB00F3B7F2 /* MASCompositeConstraint.h */,
+				18EB4EC32193DAFB00F3B7F2 /* MASCompositeConstraint.m */,
+				18EB4EC42193DAFB00F3B7F2 /* MASConstraint+Private.h */,
+				18EB4EC52193DAFB00F3B7F2 /* MASConstraint.h */,
+				18EB4EC62193DAFB00F3B7F2 /* MASConstraint.m */,
+				18EB4EC72193DAFB00F3B7F2 /* MASConstraintMaker.h */,
+				18EB4EC82193DAFB00F3B7F2 /* MASConstraintMaker.m */,
+				18EB4EC92193DAFB00F3B7F2 /* MASLayoutConstraint.h */,
+				18EB4ECA2193DAFB00F3B7F2 /* MASLayoutConstraint.m */,
+				18EB4ECB2193DAFB00F3B7F2 /* Masonry.h */,
+				18EB4ECC2193DAFB00F3B7F2 /* MASUtilities.h */,
+				18EB4ECD2193DAFB00F3B7F2 /* MASViewAttribute.h */,
+				18EB4ECE2193DAFB00F3B7F2 /* MASViewAttribute.m */,
+				18EB4ECF2193DAFB00F3B7F2 /* MASViewConstraint.h */,
+				18EB4ED02193DAFB00F3B7F2 /* MASViewConstraint.m */,
+				18EB4ED12193DAFB00F3B7F2 /* NSArray+MASAdditions.h */,
+				18EB4ED22193DAFB00F3B7F2 /* NSArray+MASAdditions.m */,
+				18EB4ED32193DAFB00F3B7F2 /* NSArray+MASShorthandAdditions.h */,
+				18EB4ED42193DAFB00F3B7F2 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				18EB4ED52193DAFB00F3B7F2 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				18EB4ED62193DAFB00F3B7F2 /* View+MASAdditions.h */,
+				18EB4ED72193DAFB00F3B7F2 /* View+MASAdditions.m */,
+				18EB4ED82193DAFB00F3B7F2 /* View+MASShorthandAdditions.h */,
+				18EB4ED92193DAFB00F3B7F2 /* ViewController+MASAdditions.h */,
+				18EB4EDA2193DAFB00F3B7F2 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		18EB4EDB2193DAFB00F3B7F2 /* WMZAlert */ = {
+			isa = PBXGroup;
+			children = (
+				18EB4EDC2193DAFB00F3B7F2 /* WMZAlert.h */,
+				18EB4EDD2193DAFB00F3B7F2 /* WMZAlert.m */,
+			);
+			path = WMZAlert;
+			sourceTree = "<group>";
+		};
+		18EB4EE12193DAFB00F3B7F2 /* WMZTableView */ = {
+			isa = PBXGroup;
+			children = (
+				18EB4EE22193DAFB00F3B7F2 /* WMZTableView.h */,
+				18EB4EE32193DAFB00F3B7F2 /* WMZTableView.m */,
+			);
+			path = WMZTableView;
+			sourceTree = "<group>";
+		};
+		18EB4EE42193DAFB00F3B7F2 /* WMZUI */ = {
+			isa = PBXGroup;
+			children = (
+				18EB4EE52193DAFB00F3B7F2 /* WMZUI.h */,
+				18EB4EE62193DAFB00F3B7F2 /* WMZUI.m */,
+			);
+			path = WMZUI;
+			sourceTree = "<group>";
+		};
+		18EB4EE72193DAFB00F3B7F2 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				18B6F7B6219EDCCA00B4988A /* NetWork */,
+				18FE48F6219959B8006FB9A9 /* Model */,
+				18FE48F7219959B8006FB9A9 /* Tool */,
+				18FE48E9219959B8006FB9A9 /* VC */,
+				18FE48FA219959B8006FB9A9 /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		18FE48E9219959B8006FB9A9 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				18FE48EA219959B8006FB9A9 /* BaseVC.h */,
+				18FE48EB219959B8006FB9A9 /* BaseVC.m */,
+				18FE48EC219959B8006FB9A9 /* HomeVC.h */,
+				18FE48ED219959B8006FB9A9 /* HomeVC.m */,
+				18FE48EE219959B8006FB9A9 /* LoginVC.h */,
+				18FE48EF219959B8006FB9A9 /* LoginVC.m */,
+				18FE48F0219959B8006FB9A9 /* PersonVC.h */,
+				18FE48F1219959B8006FB9A9 /* PersonVC.m */,
+				18FE48F2219959B8006FB9A9 /* ReginerVC.h */,
+				18FE48F3219959B8006FB9A9 /* ReginerVC.m */,
+				18FE48F4219959B8006FB9A9 /* WebVC.h */,
+				18FE48F5219959B8006FB9A9 /* WebVC.m */,
+				18FE490C219A628A006FB9A9 /* BaseTabVC.h */,
+				18FE4910219A62D6006FB9A9 /* NewsVC.m */,
+				18FE490D219A628A006FB9A9 /* BaseTabVC.m */,
+				18FE490F219A62D6006FB9A9 /* NewsVC.h */,
+				18FE4912219A62E5006FB9A9 /* MineVC.h */,
+				18FE4913219A62E5006FB9A9 /* MineVC.m */,
+				18B6F7AA219E969C00B4988A /* H5.h */,
+				18B6F7AB219E969C00B4988A /* H5.m */,
+				18B6F7AD219E97FF00B4988A /* FailVC.h */,
+				18B6F7AE219E97FF00B4988A /* FailVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		18FE48F6219959B8006FB9A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18FE4918219A7953006FB9A9 /* WMZModel.h */,
+				18FE4919219A7953006FB9A9 /* WMZModel.m */,
+				18FE491E219A7FAE006FB9A9 /* NewsModel.h */,
+				18FE491F219A7FAE006FB9A9 /* NewsModel.m */,
+				1873C87221A3E759001D663C /* BaseObject.h */,
+				1873C87321A3E759001D663C /* BaseObject.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18FE48F7219959B8006FB9A9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				18FE48F8219959B8006FB9A9 /* WMZCheckNumTool.h */,
+				18FE48F9219959B8006FB9A9 /* WMZCheckNumTool.m */,
+				18FE490B219981F3006FB9A9 /* WMZCommon.h */,
+				18B6F79A219C13A700B4988A /* WMZSingleVC.h */,
+				18B6F79B219C13A700B4988A /* WMZSingleVC.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		18FE48FA219959B8006FB9A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18FE490521995B53006FB9A9 /* ViewClass.h */,
+				18FE490621995B53006FB9A9 /* ViewClass.m */,
+				18FE491B219A7E1A006FB9A9 /* NewCell.h */,
+				18FE491C219A7E1A006FB9A9 /* NewCell.m */,
+				1873C87821A3E8C3001D663C /* BaseCell.h */,
+				1873C87921A3E8C3001D663C /* BaseCell.m */,
+				1873C87B21A3EE02001D663C /* BaseView.h */,
+				1873C87C21A3EE02001D663C /* BaseView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +574,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EB4E542193CC1600F3B7F2 /* ViewController.m in Sources */,
+				18EB4EEF2193DAFB00F3B7F2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				18FE490E219A628A006FB9A9 /* BaseTabVC.m in Sources */,
+				18EB4EB92193D49600F3B7F2 /* WMZRouter.m in Sources */,
+				18FE4914219A62E5006FB9A9 /* MineVC.m in Sources */,
+				18EB4EED2193DAFB00F3B7F2 /* MASViewConstraint.m in Sources */,
+				18FE48FC219959B8006FB9A9 /* HomeVC.m in Sources */,
+				18FE48FB219959B8006FB9A9 /* BaseVC.m in Sources */,
 				18EB4E5F2193CC2000F3B7F2 /* main.m in Sources */,
+				18FE48FD219959B8006FB9A9 /* LoginVC.m in Sources */,
+				18FE48FE219959B8006FB9A9 /* PersonVC.m in Sources */,
+				18EB4F042193E30300F3B7F2 /* WMZRequest.m in Sources */,
+				18EB4EF02193DAFB00F3B7F2 /* View+MASAdditions.m in Sources */,
+				18B6F7AF219E97FF00B4988A /* FailVC.m in Sources */,
+				18FE490721995B53006FB9A9 /* ViewClass.m in Sources */,
+				18413BF421AD24CD00F6E996 /* WMZRouterParam.m in Sources */,
+				18B6F7AC219E969C00B4988A /* H5.m in Sources */,
+				1873C87421A3E759001D663C /* BaseObject.m in Sources */,
+				18EB4EE82193DAFB00F3B7F2 /* MASCompositeConstraint.m in Sources */,
+				18FE491D219A7E1A006FB9A9 /* NewCell.m in Sources */,
+				18413BE821ABDE2400F6E996 /* WMZBaseAop.m in Sources */,
+				18B6F79C219C13A700B4988A /* WMZSingleVC.m in Sources */,
+				18EB4EF42193DAFB00F3B7F2 /* WMZTableView.m in Sources */,
+				18EB4EEC2193DAFB00F3B7F2 /* MASViewAttribute.m in Sources */,
+				18EB4EEA2193DAFB00F3B7F2 /* MASConstraintMaker.m in Sources */,
+				18FE4900219959B8006FB9A9 /* WebVC.m in Sources */,
+				18B6F7B9219EDCD700B4988A /* NetWorkTool.m in Sources */,
+				18EB4EEE2193DAFB00F3B7F2 /* NSArray+MASAdditions.m in Sources */,
+				1873C87D21A3EE02001D663C /* BaseView.m in Sources */,
+				1873C87A21A3E8C3001D663C /* BaseCell.m in Sources */,
+				18EB4EF22193DAFB00F3B7F2 /* WMZAlert.m in Sources */,
+				18EB4EF12193DAFB00F3B7F2 /* ViewController+MASAdditions.m in Sources */,
+				18EB4EE92193DAFB00F3B7F2 /* MASConstraint.m in Sources */,
+				18FE48FF219959B8006FB9A9 /* ReginerVC.m in Sources */,
+				18FE4911219A62D6006FB9A9 /* NewsVC.m in Sources */,
+				18F4735121BA72F90030F719 /* Aspects.m in Sources */,
+				18EB4EF52193DAFB00F3B7F2 /* WMZUI.m in Sources */,
+				18EB4EEB2193DAFB00F3B7F2 /* MASLayoutConstraint.m in Sources */,
+				18B6F7A9219E927600B4988A /* WMZRouteBase.m in Sources */,
+				18413BE521ABDDE600F6E996 /* WMZRouter+Expand.m in Sources */,
+				18FE4920219A7FAE006FB9A9 /* NewsModel.m in Sources */,
+				18FE491A219A7953006FB9A9 /* WMZModel.m in Sources */,
 				18EB4E512193CC1600F3B7F2 /* AppDelegate.m in Sources */,
+				18FE4901219959B8006FB9A9 /* WMZCheckNumTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +789,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HR6T4LQD9T;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WMZRouter/PrefixHeader.pch";
 				INFOPLIST_FILE = WMZRouter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +809,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HR6T4LQD9T;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WMZRouter/PrefixHeader.pch";
 				INFOPLIST_FILE = WMZRouter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

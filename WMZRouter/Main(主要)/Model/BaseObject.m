@@ -10,4 +10,8 @@
 
 @implementation BaseObject
 
++ (NSString *)routerPath{
+    return [NSString stringWithFormat:@"get%@",NSStringFromClass([self class])];
+}
+
 @end
